@@ -48,9 +48,13 @@ navigation:
   section: news
 - text: About
   url: /about.html
+- text: Download
+  url: /download/
 
 aliases:
   s_nakamoto: Satoshi Nakamoto
   --author=Satoshi Nakamoto: Satoshi Nakamoto
   gavinandresen: Gavin Andresen
   tcatm: Nils Schneider
+
+DOWNLOAD_VERSION: 0.5.0

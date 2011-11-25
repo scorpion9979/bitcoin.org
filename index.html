@@ -2,7 +2,6 @@
 layout: index
 section: index
 title: P2P digital currency
-DOWNLOAD_VERSION: 0.5.0
 ALERT_CLASS:
 ALERT:
 ---
@@ -32,33 +31,11 @@ ALERT:
 
               <div class="span5">
                 <section id="download">
-                  <h2>Download</h2>
-
-                  <div>
-
-                    <p>
-                       <strong>Latest version:</strong> {{ page.DOWNLOAD_VERSION }}
-                    </p>
-
-                    <ul class="unstyled">
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-{{ page.DOWNLOAD_VERSION }}/bitcoin-{{ page.DOWNLOAD_VERSION }}-win32.zip/download">
-                        <img src="img/ico-win.png" class="icon"/>Windows (zip)</a> <small>~8MB</small>
-                      </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-{{ page.DOWNLOAD_VERSION }}/bitcoin-{{ page.DOWNLOAD_VERSION }}-win32-setup.exe/download">
-                        <img src="img/ico-win.png" class="icon"/>Windows (exe)</a> <small>~4MB</small>
-                      </li>
-                      <li><a href="https://launchpad.net/~bitcoin/+archive/bitcoin">
-                        <img src="img/ico-ubuntu.png" class="icon">Ubuntu PPA</a>
-                      </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-{{ page.DOWNLOAD_VERSION }}/bitcoin-{{ page.DOWNLOAD_VERSION }}-linux.tar.gz/download">
-                        <img src="img/ico-tux.png" class="icon"/>Linux (tgz, 32/64-bit)</a> <small>~12MB</small>
-                      </li>
-                      <li><a href="http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-{{ page.DOWNLOAD_VERSION }}/bitcoin-{{ page.DOWNLOAD_VERSION }}-macosx.dmg/download">
-                        <img src="img/ico-osx-uni.png" class="icon">Mac OS X</a> <small>~6MB</small>
-                      </li>
-                      <li>or get the <a href="https://github.com/bitcoin/bitcoin">source code</a> (GitHub)</li>
-                    </ul>
-                  </div>
+					<noscript>
+						<a class="btn large success" href="/download/">Download Bitcoin {{site.DOWNLOAD_VERSION}}</a>
+					</noscript>
+					<!-- This should link to the auto-detected os -->
+					<a class="btn large success" href="/download/">Download Bitcoin {{site.DOWNLOAD_VERSION}}</a>
                 </section>
               </div>
           </div>
