@@ -1,16 +1,19 @@
 ---
 layout: simple
+section: download
 ---
-	<div class="container-fluid">
-		<nav class="sidebar">
-			<div class="well">
-			<ul>
-				  <li><a href="/download/windows.html">Windows</a></li>
-				  <li><a href="/download/source.html">Source</a></li>
-				  <li><a href="/download/mac.html">Mac OS X</a></li>
-				  <li><a href="/download/ubuntu.html">Ubuntu</a></li>
-			</ul>
+    <div class="container">
+      <div class="row">
+        <div class="span3">
+          <ul class="unstyled">
+              <li><a href="/download/windows.html">Windows</a></li>
+              <li><a href="/download/source.html">Source</a></li>
+              <li><a href="/download/mac.html">Mac OS X</a></li>
+              <li><a href="/download/ubuntu.html">Ubuntu</a></li>
+          </ul>
+        </div>
+        <div class="span13">
+          {{ content }}
+			  </div>
 			</div>
-		</nav>
-    {{ content }}
     </div>
