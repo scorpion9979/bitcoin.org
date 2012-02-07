@@ -48,6 +48,8 @@ navigation:
   section: news
 - text: About
   url: /about.html
+- text: Get Involved
+  url: /contribute.html
 
 aliases:
   s_nakamoto: Satoshi Nakamoto
