@@ -3,6 +3,7 @@ ALERT_CLASS:
 ALERT: 
 
 langs:
+  ar: Arabic
   fr: Français
   en: English
   
