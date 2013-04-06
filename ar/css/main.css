@@ -1,0 +1,73 @@
+/*Language specific styles that override default*/
+
+/*Styles for HTML tags*/
+body{
+font-family:'DroidNaskh', sans-serif;
+}
+h1,h2{
+font-family:'DroidNaskh', sans-serif;
+}
+h1,h2,h3{
+text-align:right;
+}
+h1 img,h2 img,h3 img{
+margin-right:auto;
+margin-left:5px;
+}
+ul{
+padding-right:20px;
+padding-left:auto;
+}
+li{
+text-align:right;
+}
+
+/*Styles for whole website*/
+
+#lang{
+font-family:"Helvetica Neue", "Liberation Sans", Arial, sans-serif;
+}
+#menufor{
+bottom:-10px;
+}
+#menufor li a,#menufor li a:active,#menufor li a:visited,#menufor li a:link{
+font-family:'DroidNaskh', sans-serif;
+}
+#menu li a,#menu li a:active,#menu li a:visited,#menu li a:link{
+font-family:'DroidNaskh', sans-serif;
+}
+#content{
+padding:15px 40px 20px 250px;
+}
+#rightbox{
+left:16px;
+right:auto;
+}
+.previewrow>div{
+margin-right:auto;
+margin-left:12px;
+}
+.previewrow>div.last{
+margin-left:0px;
+}
+.previewrow>div>div>span{
+right:auto;
+left:30px;
+}
+
+/*Override UbuntuBold by Droid Naskh*/
+
+@font-face{font-family:'DroidNaskh';src:url('/ar/font/droidnaskh-regular.eot');font-weight:normal;font-style:normal;}
+@font-face{font-family:'DroidNaskh';src:url('/ar/font/droidnaskh-regular.ttf') format('truetype');font-weight:normal;font-style:normal;}
+
+/*Styles specific to mobiles*/
+
+@media handheld, only screen and (max-device-height: 37em), only screen and (max-device-width: 50em){
+#menufor{
+bottom:0px;
+}
+#content{
+position:static;
+padding:15px 10px 20px 10px;
+}
+}

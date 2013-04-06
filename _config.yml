@@ -3,58 +3,75 @@ ALERT_CLASS:
 ALERT: 
 
 langs:
+  ar: Arabic
   fr: Français
   en: English
   
 section:
   index:
+    ar:
     en: 
     fr: 
   about:
+    ar: عن
     en: about
     fr: a-propos
   bitcoin-for-developers:
+    ar: بت-كوين-للمطورين
     en: bitcoin-for-developers
     fr: bitcoin-pour-developpeurs
   bitcoin-for-enthusiasts:
+    ar: بت-كوين-للهواة
     en: bitcoin-for-enthusiasts
     fr: bitcoin-pour-passionnes
   bitcoin-for-individuals:
+    ar: بت-كوين-للأفراد
     en: bitcoin-for-individuals
     fr: bitcoin-pour-particuliers
   bitcoin-for-organizations:
+    ar: بت-كوين-للمنظمات
     en: bitcoin-for-organizations
     fr: bitcoin-pour-organisations
   choose-your-wallet:
+    ar: إختر-محفظتك
     en: choose-your-wallet
     fr: choisir-votre-porte-monnaie
   community:
+    ar: مجتمع
     en: community
     fr: communaute
   development:
+    ar: تطوير
     en: development
     fr: developpement
   download:
+    ar: تحميل
     en: download
     fr: telecharger
   foundation:
+    ar: مؤسسة
     en: foundation
     fr: fondation
   how-it-works:
+    ar: كيف-يعمل
     en: how-it-works
     fr: comment-ca-marche
   resources:
+    ar: مصادر
     en: resources
     fr: ressources
   support-bitcoin:
+    ar: إدعم-ألبت-كوين
     en: support-bitcoin
     fr: supporter-bitcoin
   version-history:
     en: version-history
   vocabulary:
+    ar: مفردات
     en: vocabulary
     fr: vocabulaire
   you-need-to-know:
+    ar: تحتاج-أن-تعلم
     en: you-need-to-know
     fr: vous-devez-savoir
 
